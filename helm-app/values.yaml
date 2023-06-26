@@ -6,10 +6,10 @@ replicaCount: 1
 
 image:
   pullPolicy: IfNotPresent
-  repository: nginx
-  tag: latest
-  #repository: kostiscodefresh/gitops-simple-app
-  #tag: v1.0
+  #repository: nginx
+  #tag: latest
+  repository: kostiscodefresh/gitops-simple-app
+  tag: v1.0
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
